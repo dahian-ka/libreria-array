@@ -29,7 +29,7 @@ descripcion:"una conmovedora historia de amor que se desarrolla en san francisco
 estado:"antiguo", 
 ubicacion:"ficcion contemporanea", 
 fecha_publicacion:"25 de mayo del 2015", 
-editorial:"plaza & janes editores", 
+editorial:"createSpace", 
 paginas:"320",
 dimension:"11.43*3.18*18.42cm", 
 peso:"128 onzas", 
@@ -47,7 +47,7 @@ descripcion:"una apasionante historia de amor yvenganza entre heatchif y catheri
 estado:"antiguo", 
 ubicacion:"ficion clasica", 
 fecha_publicacion:"13 de diciembre del 1847", 
-editorial:"penguin clasicos", 
+editorial:"createSpace", 
 paginas:"416",
 dimension:"11.43*3.18*18.42cm", 
 peso:"1 libra", 
@@ -65,7 +65,7 @@ descripcion:"ambientada en la barcelona de la posguerra , este libro cuenta la h
 estado:"antiguo", 
 ubicacion:"ficcion contemporanea", 
 fecha_publicacion:"17 de marzo del 2001", 
-editorial:"planeta publishing",
+editorial:"createSpace",
 paginas:"576", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"1.2 libras", 
@@ -83,7 +83,7 @@ descripcion:"sira una modista española se ve emvuelta en una trama de amor,espi
 estado:"nuevo", 
 ubicacion:"ficion historica", 
 fecha_publicacion:"28 de julio del 2011", 
-editorial:"atria books", 
+editorial:"createSpace", 
 paginas:"624",
 dimension:"11.43*3.18*18.42cm", 
 peso:"1.1 libras", 
@@ -101,7 +101,7 @@ descripcion:"ambientada en nueva zelanda este libro narra la historia de dos muj
 estado:"nuevo", 
 ubicacion:"ficcion contemporanea", 
 fecha_publicacion:"12 de marzo del 2013", 
-editorial:"grijalbo", 
+editorial:"sudamerica", 
 paginas:"752",
 dimension:"11.43*3.18*18.42cm", 
 peso:"1.3 libras", 
@@ -118,7 +118,7 @@ descripcion:"este libro esta enttrelazado las vidas de varias peronajes en torno
 estado:"antiguo", 
 ubicacion:"ficcion historica", 
 fecha_publicacion:"2 de mayo de 1999", 
-editorial:"vintage español",
+editorial:"sudamerica",
 paginas:"1104", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"2 libras", 
@@ -136,7 +136,7 @@ descripcion:"un cuento magico que sigue las aventuras de un pequeño principe",
 estado:"nuevo", 
 ubicacion:"ficion infantil", 
 fecha_publicacion:"1943", 
-editorial:"boka for you young",
+editorial:"sudamerica",
 paginas:"96", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"200g", 
@@ -172,7 +172,7 @@ descripcion:"un clasico de la literatura latinoamericana",
 estado:"antiguo", 
 ubicacion:"libreria lerner", 
 fecha_publicacion:"1967 ", 
-editorial:"sudafrica",
+editorial:"alfaguara",
 paginas:"432", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"600g", 
@@ -190,7 +190,7 @@ descripcion:"la primera entrega de la famosa saga de harry potter",
 estado:"antiguo", 
 ubicacion:"libreria nacional", 
 fecha_publicacion:"1997", 
-editorial:"salamandra",
+editorial:"alfaguara",
 paginas:"256", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"700g", 
@@ -208,7 +208,7 @@ descripcion:"una diptosia clasica qque ha resistido la prueba del tiempo",
 estado:"antiguo", 
 ubicacion:"libreria nacional", 
 fecha_publicacion:"1949", 
-editorial:"DeBolsillo",
+editorial:"alfaguara",
 paginas:"368", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"450g", 
@@ -226,7 +226,7 @@ descripcion:"una novela que conmbina con misterio ,romance y suspenso en la barc
 estado:"antiguo", 
 ubicacion:"libreria nacional", 
 fecha_publicacion:"2001", 
-editorial:"planeta",
+editorial:"alfaguara",
 paginas:"544", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"800g", 
@@ -261,7 +261,7 @@ descripcion:"una historia de honor venganza y tragedia de un pequeño pueblo",
 estado:"antiguo", 
 ubicacion:"lberia nacional", 
 fecha_publicacion:"1981", 
-editorial:"sudaAmerica",
+editorial:"plaza  & janes",
 paginas:"128", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"300g", 
@@ -278,7 +278,7 @@ descripcion:"la ultima entrega de la saga del cementerio de los libros olvidados
 estado:"nuevo", 
 ubicacion:"libreria nacional", 
 fecha_publicacion:"2016", 
-editorial:"planeta",
+editorial:"plaza  & janes",
 paginas:"928", 
  dimension:"11.43*3.18*18.42cm", 
 peso:"1100g", 
@@ -295,7 +295,7 @@ descripcion:"una obra maestra de la literatura española que sigue las aventura 
 estado:"antiguo", 
 ubicacion:"libreria lerner", 
 fecha_publicacion:"1605", 
-editorial:"espasa calpe",
+editorial:"plaza  & janes",
 paginas:"1056", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"1200g", 
@@ -312,7 +312,7 @@ descripcion:"una diptosia donde los jovenes luchan por sobrevivir en un reality 
 estado:"nuevo", 
 ubicacion:"libreria nacional", 
 fecha_publicacion:"2008", 
-editorial:"molino",
+editorial:"plaza  & janes",
 paginas:"400", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"600g", 
@@ -329,7 +329,7 @@ descripcion:"una historia de busqueda personal y espiritualidad que inspirado a 
 estado:"nuevo", 
 ubicacion:"libreria lerne", 
 fecha_publicacion:"2008", 
-editorial:"rayo",
+editorial:"plaza  & janes",
 paginas:"208", 
 dimension:"11.43*3.18*18.42cm", 
 peso:"350g",
@@ -352,4 +352,222 @@ dimension:"11.43*3.18*18.42cm",
 peso:"700g", 
 },
 ]
+ 
+
+function agregarLibro(libro) {
+    libro.push(libro)
+    console.log('El libro "${libro.titulo}"ha sido agregado a la pila_libros.');
+}
+    
+function quitarLibro(){
+    if (libro.lenght > 0){
+        console.log("la pila de libros esta vacia.");
+    }else{
+        const libro_quitado = libro.pop();
+        console.log('El libro "${libro_quitado.titulo}"ha sido quitado de la pila.');
+    }
+  }
+  function mostrarPila() {
+    if (libro.length === 0) {
+      console.log("La pila está vacía.");
+    } else {
+      console.log("Libros en la pila:");
+      libro.forEach((libro, index) => {
+      console.log('${index + 1}. ${libro.titulo}');
+      });
+    }
+  };
+
+  function mostrarMenu(){
+    console.log("/nMenu de la pila de libro");
+    console.log("1.agregar libro");
+    console.log("2.quitar libro");
+    console.log("3.mostrar pila");
+    console.log("salir");
+  }
+
+  function pedirOpcion(){
+    const opcion = prompt("ingrese una opcion (1-4): ");
+    return opcion;
+  }
+
+  let salir = false;
+
+  while (!salir) {
+    mostrarMenu();
+    const opcion = pedirOpcion();
+
+    switch(opcion) {
+      case "1":
+        const nuevoLibro ={
+            titulo:prompt("ingrese el titulo del libro"),
+            autor:prompt("ingrese el autor del libro:"),
+            genero:prompt("ingrese el genero del libro:"),
+          
+        };
+        agregarLibro(nuevoLibro);
+        break;
+    case "2":
+        quitarLibro();
+    break;
+case "3":
+    mostrarPila();
+break;
+ case "4":
+    salir = true;
+    console.log("saliendo del programa...");
+    break;
+    default:
+        console.log("opcion invalida. Intente nuevamente.");
+    }
+  }
   
+  const listar1= libro.map((libro) =>{
+    return{
+        titulo:libro.titulo,
+        autor:libro.autor,
+        editorial:libro.editorial,
+        precio:libro.precio,
+    };
+});
+
+console.table(listar1)
+
+const ubicacion = libro.map((libro)=>{
+  return{
+    titulo:libro.titulo,
+    ubicacion:libro.ubicacion,
+    descripcion:libro.descripcion,
+  };
+});
+console.table(ubicacion)
+
+const paginas = libro.map((libro)=>{
+  return{
+    titulo:libro.titulo,
+    paginas:libro.paginas,
+    descripcion:libro.descripcion,
+  };
+});
+console.table(paginas)
+
+const titulo = libro.map((libro)=>{
+  return{
+    editorial:libro.editorial,
+    titulo:libro.titulo,
+    descripcion:libro.descripcion,
+  };
+});
+console.table(titulo)
+
+const formato= libro.map((libro)=>{
+  return{
+    titulo:libro.titulo,
+    formato:libro.formato,
+    descripcion:libro.descripcion,
+  };
+});
+console.table(formato)
+
+const genero = libro.map((libro)=>{
+  return{
+    titulo:libro.titulo,
+    genero:libro.genero,
+    descripcion:libro.descripcion,
+  };
+});
+console.table(genero)
+
+const fecha_publicacion = libro.map((libro)=>{
+  return{
+    titulo:libro.titulo,
+    fecha_publicacion:libro.fecha_publicacion,
+    paginas:libro.paginas,
+  };
+});
+console.table(fecha_publicacion)
+
+const idioma = libro.map((libro)=>{
+  return{
+    titulo:libro.titulo,
+    idioma:libro.idioma,
+    genero:libro.genero,
+  };
+});
+console.table(idioma)
+
+const descripcion = libro.map((libro)=>{
+  return{
+    titulo:libro.titulo,
+    descripcion:libro.descripcion,
+    genero:libro.genero,
+  };
+});
+console.table(descripcion)
+
+const precio = libro.map((libro)=>{
+  return{
+    titulo:libro.titulo,
+    precio:libro.precio,
+    ubicacion:libro.ubicacion,
+  };
+});
+console.table(precio)
+
+const isbn = libro.map((libro)=>{
+  return{
+    titulo:libro.titulo,
+    isbn:libro.isbn,
+    descripcion:libro.descripcion,
+  };
+});
+console.table(isbn)
+
+const LibrosCarosPorTituloDesc = libro
+.filter((libro) => {
+  return libro.precio > 11.000
+})
+ 
+.map((titulo) => {
+  return{
+    titulo:titulo.titulo,
+    autor:titulo.autor,
+    precio:titulo.precio,
+  };
+})
+
+
+
+ 
+
+
+
+  
+
+
+
+ 
+
+
+
+
+
+
+   
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+ 
+
+
+
