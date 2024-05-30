@@ -523,18 +523,28 @@ const isbn = libro.map((libro)=>{
 });
 console.table(isbn)
 
-const LibrosCarosPorTituloDesc = libro
-.filter((libro) => {
-  return libro.precio > 11.000
-})
- 
-.map((titulo) => {
-  return{
-    titulo:titulo.titulo,
-    autor:titulo.autor,
-    precio:titulo.precio,
+// descuento
+
+const librosDescto = libro.map ((libro) => {
+  return {
+    ...libro,
+    descuento:20,
   };
-})
+});
+
+console.log(librosDescto); 
+
+// lista libros
+const librosDesto = librosDescto.map ((libro) => {
+  return{
+    titulo:libro.titulo,
+    autor:libro.autor,
+    editorial:libro.editorial,
+  };
+});
+
+
+
 
 
 
